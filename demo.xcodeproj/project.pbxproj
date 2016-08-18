@@ -14,6 +14,8 @@
 		55C74D181D66023400ECAB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C74D161D66023400ECAB71 /* LaunchScreen.storyboard */; };
 		55C74D231D66023400ECAB71 /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C74D221D66023400ECAB71 /* demoTests.swift */; };
 		55C74D2E1D66023500ECAB71 /* demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C74D2D1D66023500ECAB71 /* demoUITests.swift */; };
+		55CCA0171D666CA300644136 /* CatalogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCA0161D666CA300644136 /* CatalogoViewController.swift */; };
+		55CCA0191D6674B200644136 /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCA0181D6674B200644136 /* DetalleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		55C74D291D66023500ECAB71 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C74D2D1D66023500ECAB71 /* demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoUITests.swift; sourceTree = "<group>"; };
 		55C74D2F1D66023500ECAB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CCA0161D666CA300644136 /* CatalogoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogoViewController.swift; sourceTree = "<group>"; };
+		55CCA0181D6674B200644136 /* DetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				55C74D141D66023400ECAB71 /* Assets.xcassets */,
 				55C74D161D66023400ECAB71 /* LaunchScreen.storyboard */,
 				55C74D191D66023400ECAB71 /* Info.plist */,
+				55CCA0161D666CA300644136 /* CatalogoViewController.swift */,
+				55CCA0181D6674B200644136 /* DetalleViewController.swift */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CCA0191D6674B200644136 /* DetalleViewController.swift in Sources */,
 				55C74D101D66023400ECAB71 /* ViewController.swift in Sources */,
+				55CCA0171D666CA300644136 /* CatalogoViewController.swift in Sources */,
 				55C74D0E1D66023400ECAB71 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +494,7 @@
 				55C74D341D66023500ECAB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55C74D351D66023500ECAB71 /* Build configuration list for PBXNativeTarget "demoTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				55C74D371D66023500ECAB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55C74D381D66023500ECAB71 /* Build configuration list for PBXNativeTarget "demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				55C74D3A1D66023500ECAB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
